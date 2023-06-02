@@ -60,4 +60,4 @@ userSchema.methods.createpasswordResetToken = async function () {
 };
 
 //Export the model
-export const userModel = mongoose.model("Users", userSchema);
+export const userModel = mongoose.model("hallUsers", userSchema);
