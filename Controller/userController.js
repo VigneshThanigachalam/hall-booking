@@ -1,8 +1,8 @@
 import { userModel as user } from "../Model/userModel.js";
 import asyncHandler from "express-async-handler";
-import { generateToken } from "../configure/jwToken.js";
+import { generateToken } from "../Configure/jwToken.js";
 import { validatemongodbId } from "../utils/validatemongodbId.js";
-import { generaterrefreshToken } from "../configure/refreshToken.js";
+import { generaterrefreshToken } from "../Configure/refreshToken.js";
 import jwt from "jsonwebtoken";
 import crypto from "crypto";
 import { roomModel as room } from "../Model/roomModel.js";
